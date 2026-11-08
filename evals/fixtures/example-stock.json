@@ -1,0 +1,41 @@
+{
+  "meta": { "ticker": "000000.SZ", "name": "示例股份（eval fixture）", "as_of": "2026-11-07", "currency": "CNY", "market": "A" },
+  "price": { "close": 30.00, "market_cap": 30000000000, "shares_outstanding": 1000000000 },
+  "financials": [
+    { "year": 2016, "period": "FY", "revenue": 3000000000, "net_profit": 350000000, "eps": 0.35, "dps": 0.10, "gross_margin": 0.380, "net_margin": 0.117, "roe": 0.135, "roic": 0.115, "total_assets": 7500000000, "total_liab": 4900000000, "total_equity": 2600000000, "current_assets": 3000000000, "current_liab": 2200000000, "long_debt": 1000000000, "operating_cash_flow": 300000000, "capex": 250000000, "rd_expense": 120000000, "shares_outstanding": 1000000000, "receivables": 420000000, "inventory": 600000000 },
+    { "year": 2017, "period": "FY", "revenue": 3600000000, "net_profit": 450000000, "eps": 0.45, "dps": 0.13, "gross_margin": 0.390, "net_margin": 0.125, "roe": 0.150, "roic": 0.125, "total_assets": 8400000000, "total_liab": 5400000000, "total_equity": 3000000000, "current_assets": 3400000000, "current_liab": 2500000000, "long_debt": 1100000000, "operating_cash_flow": 380000000, "capex": 280000000, "rd_expense": 150000000, "shares_outstanding": 1000000000, "receivables": 500000000, "inventory": 660000000 },
+    { "year": 2018, "period": "FY", "revenue": 4300000000, "net_profit": 530000000, "eps": 0.53, "dps": 0.15, "gross_margin": 0.400, "net_margin": 0.123, "roe": 0.162, "roic": 0.130, "total_assets": 9500000000, "total_liab": 5900000000, "total_equity": 3530000000, "current_assets": 3900000000, "current_liab": 2700000000, "long_debt": 1200000000, "operating_cash_flow": 460000000, "capex": 300000000, "rd_expense": 180000000, "shares_outstanding": 1000000000, "receivables": 600000000, "inventory": 720000000 },
+    { "year": 2019, "period": "FY", "revenue": 4900000000, "net_profit": 590000000, "eps": 0.59, "dps": 0.17, "gross_margin": 0.395, "net_margin": 0.120, "roe": 0.158, "roic": 0.128, "total_assets": 10600000000, "total_liab": 6400000000, "total_equity": 4120000000, "current_assets": 4300000000, "current_liab": 3000000000, "long_debt": 1300000000, "operating_cash_flow": 510000000, "capex": 330000000, "rd_expense": 210000000, "shares_outstanding": 1000000000, "receivables": 700000000, "inventory": 800000000 },
+    { "year": 2020, "period": "FY", "revenue": 4200000000, "net_profit": -180000000, "eps": -0.18, "dps": 0.00, "gross_margin": 0.280, "net_margin": -0.043, "roe": -0.038, "roic": -0.030, "total_assets": 11200000000, "total_liab": 6400000000, "total_equity": 4800000000, "current_assets": 4500000000, "current_liab": 3100000000, "long_debt": 1400000000, "operating_cash_flow": 200000000, "capex": 300000000, "rd_expense": 230000000, "shares_outstanding": 1000000000, "receivables": 900000000, "inventory": 950000000 },
+    { "year": 2021, "period": "FY", "revenue": 5600000000, "net_profit": 500000000, "eps": 0.50, "dps": 0.12, "gross_margin": 0.350, "net_margin": 0.089, "roe": 0.095, "roic": 0.075, "total_assets": 13000000000, "total_liab": 7700000000, "total_equity": 5300000000, "current_assets": 5200000000, "current_liab": 3600000000, "long_debt": 2000000000, "operating_cash_flow": 420000000, "capex": 500000000, "rd_expense": 260000000, "shares_outstanding": 1000000000, "receivables": 1100000000, "inventory": 1050000000 },
+    { "year": 2022, "period": "FY", "revenue": 6500000000, "net_profit": 690000000, "eps": 0.69, "dps": 0.15, "gross_margin": 0.365, "net_margin": 0.106, "roe": 0.121, "roic": 0.092, "total_assets": 15000000000, "total_liab": 8700000000, "total_equity": 6300000000, "current_assets": 6000000000, "current_liab": 4100000000, "long_debt": 2600000000, "operating_cash_flow": 600000000, "capex": 650000000, "rd_expense": 290000000, "shares_outstanding": 1000000000, "receivables": 1300000000, "inventory": 1150000000 },
+    { "year": 2023, "period": "FY", "revenue": 7500000000, "net_profit": 820000000, "eps": 0.82, "dps": 0.18, "gross_margin": 0.380, "net_margin": 0.109, "roe": 0.138, "roic": 0.105, "total_assets": 17200000000, "total_liab": 9700000000, "total_equity": 7100000000, "current_assets": 6800000000, "current_liab": 4500000000, "long_debt": 3000000000, "operating_cash_flow": 700000000, "capex": 750000000, "rd_expense": 300000000, "shares_outstanding": 1000000000, "receivables": 1500000000, "inventory": 1250000000 },
+    { "year": 2024, "period": "FY", "revenue": 8300000000, "net_profit": 900000000, "eps": 0.90, "dps": 0.20, "gross_margin": 0.390, "net_margin": 0.108, "roe": 0.146, "roic": 0.112, "total_assets": 18800000000, "total_liab": 10600000000, "total_equity": 7900000000, "current_assets": 7500000000, "current_liab": 4900000000, "long_debt": 3400000000, "operating_cash_flow": 760000000, "capex": 800000000, "rd_expense": 310000000, "shares_outstanding": 1000000000, "receivables": 1800000000, "inventory": 1400000000 },
+    { "year": 2025, "period": "FY", "revenue": 9900000000, "net_profit": 1000000000, "eps": 1.00, "dps": 0.20, "gross_margin": 0.420, "net_margin": 0.101, "roe": 0.133, "roic": 0.104, "total_assets": 20000000000, "total_liab": 12500000000, "total_equity": 7500000000, "current_assets": 8000000000, "current_liab": 5000000000, "long_debt": 4000000000, "operating_cash_flow": 550000000, "capex": 900000000, "rd_expense": 300000000, "shares_outstanding": 1000000000, "receivables": 3200000000, "inventory": 1600000000 }
+  ],
+  "dividends": [
+    { "year": 2025, "payout_ratio": 0.20, "record_years": 8 },
+    { "year": 2018, "payout_ratio": 0.28, "note": "本框架数据包仅提供 2018 年起的派息记录，2017 年及更早未采集" }
+  ],
+  "quality_flags": {
+    "audit_opinion": "标准无保留",
+    "major_shareholder_pledge": 0.12,
+    "goodwill_ratio": 0.05,
+    "regulatory_penalties": [],
+    "going_concern": false
+  },
+  "industry": { "level1": "示例行业", "level2": "示例子行业", "market_share_note": "虚构数据，仅用于 evals，不得用于真实决策" },
+  "sources": [
+    { "field": "financials", "from": "虚构数据（fixture），无真实来源", "verified_by": [] }
+  ],
+  "_eval_traps": [
+    "2020 年净利为负：应被 graham g3（10年无亏损）与 buffett roe_10y（任一年<8%）捕获",
+    "2025 应收账款 32 亿 vs 2024 18 亿（+78%），营收增速仅 +19%：应被 lynch ly6 与 fisher 要点4 捕获",
+    "PE 30 × PB 4.0 = 120 远超 22.5：graham g6/g7 必须 fail，且不得因毛利率改善而放宽",
+    "派息仅 8 年记录（<20 年）：graham g4 应走降级判定并写入 data_gaps",
+    "ROIC 最低 -3.0%（2020）：buffett roic_min≥12% fail",
+    "FCF/净利 多年均值 <0.8（2021 年起经营现金流持续低于资本开支，2025 年 FCF=-3.5亿）：buffett cash_conversion fail",
+    "研发费用率 2025 约 3.0% 低于 5% 阈值：fisher B 维度扣分",
+    "市值 300 亿 = 30.00 × 10 亿股：market_cap_check 应 pass，用于验证校验链路本身可用"
+  ]
+}

@@ -1,0 +1,35 @@
+# lynch-garp 阈值参数 v1.0
+weights:
+  peg: 40
+  classification_fit: 15
+  debt_and_quality: 25
+  underfollowed_insider: 20
+
+classification:
+  types: [slow, stable, cyclical, fast, turnaround, asset]
+  require_evidence: true
+  insufficient_evidence_verdict: gray
+
+peg:
+  pass_max: 1.0
+  gray_max: 1.5
+  fail_above: 1.5
+  growth_basis: conservative            # 取净利/营收 CAGR 较低者（脚本口径）
+
+debt:
+  default_debt_to_assets_max_pct: 25
+  stable_growth_max_pct: 40
+  sector_override_allowed: [financials, utilities]   # 差异化判断，不套用同一标准
+
+quality_redflags:
+  inventory_growth_vs_revenue: reject_if_inventory_exceeds_revenue   # 第6条
+  receivable_growth_vs_revenue: warn
+  one_off_earnings: strip_before_scoring
+
+contrarian_bonus:                        # 第4步十要素
+  low_institutional_ownership_max_pct: 30
+  insider_buy_lookback_months: 12
+
+story_test:
+  required: true
+  fail_code: STORY_UNCLEAR

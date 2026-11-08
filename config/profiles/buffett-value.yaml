@@ -1,0 +1,36 @@
+# buffett-value 阈值参数 v1.0
+# 判据逻辑在 skills/buffett-value/SKILL.md，本文件只放可调数值。
+# 改动本文件不需要升 SKILL 版本；改动判据需要升版本并跑 evals/。
+
+gates:
+  circle_of_competence: required      # 说不清三句话 → fail
+
+weights:                                # 合计 100
+  good_business: 25
+  moat: 25
+  management: 20
+  margin_of_safety: 30
+
+hard_screen:
+  roe_10y:
+    years: 10
+    min_each_year_pct: 15              # 逐年不低于
+    catastrophic_below_pct: 8          # 任一年低于此值直接 fail
+  roic_min_pct: 12
+  gross_margin_min_pct: 30             # 周期行业可由技能声明豁免
+  fcf_to_net_profit_avg_min: 0.8
+  equity_3y_growth_max_pct: 40         # 与 RF-07 交叉
+
+valuation:
+  margin_of_safety_required_pct: 25    # 建议介入价 = 中性内在价值 ×(1-此值)
+  overvalued_fail_threshold_pct: 20    # 现价高于中性内在价值 20% 以上 → fail
+  three_scenario_required: true
+  reverse_dcf_check: true
+
+qualitative:
+  moat_score_max: 5
+  moat_direction_required: true        # 变宽/持平/变窄，必答
+  management_promise_trail_years: 3    # 对账 3 年前承诺
+
+exemptions:
+  cyclical_gross_margin: declared_only # 豁免必须由技能显式声明理由

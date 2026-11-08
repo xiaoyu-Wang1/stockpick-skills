@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+# 评测结果本地留存（不入库，避免污染判据版本历史）
+evals/results/
+
+# 临时数据包与本地私有股票池（可能含个人持仓，默认不入库）
+*.local.json
+config/universes/private/
+
+# 运行产物
+output/
+.DS_Store
+Thumbs.db

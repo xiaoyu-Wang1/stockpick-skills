@@ -1,0 +1,26 @@
+# fisher-growth 阈值参数 v1.0
+weights:
+  growth_space: 30
+  innovation_org: 25
+  management_integrity: 25
+  price_dilution: 20
+
+hard_screen:
+  rev_cagr_5y_min_pct: 15
+  np_cagr_5y_min_pct: 15
+  no_negative_annual_growth: true       # 逐年营收/净利不得为负增长
+  rd_ratio_min_pct: 5                   # 或显著高于同行（技能可替代判定，需注明同行值）
+  f15_integrity_veto: true              # 第15条命中即 fail
+
+valuation:
+  peg_max: 1.5
+  peg_grey_zone: [1.0, 1.5]             # 落入灰区 → gray 倾向
+  overdraft_check: true                 # 隐含增速 > 历史最高增速 → fail
+  allow_premium_vs_market: true         # 本派特色：容忍高 PE，但要 PEG 过关
+
+dilution:
+  equity_3y_growth_max_pct: 40          # 要点13，与 RF-07 交叉
+
+scuttlebutt:
+  min_nodes_verified: 2                 # 至少两个独立旁证节点
+  require_counter_evidence: true        # 必须主动找一条反证
